@@ -7,7 +7,7 @@ int	main(int argc, char *argv[])
 	i = 0;
 	if (argc > 1)
 	{
-		while (argv[1][i])
+		while (argv[1][i] != '\0')
 		{
 			write(1, &argv[1][i], 1);
 			i++;
